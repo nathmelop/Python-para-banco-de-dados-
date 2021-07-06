@@ -38,3 +38,20 @@ print('A soma entre {} e {} vale {}'.format(n1,n2,s))
 n1 =float(input('digite um valor:'))
 print(type(n1))
 
+Ordem de precendentes: 
+1 - ()
+2 - ** 
+3 - * / // %  
+4 - + -     
+
+nome = input ('Qual é o seu nome?')
+print('Olá prazer em te conhecer {}!!'.format(nome))
+
+num1 = int(input('Digite um valor:'))
+num2 = int(input('Digite outro valor:'))
+sum = num1 + num2
+print('A soma entre {} e {} é igual a {} !!'.format(num1,num2,sum))
+
+num1 = int(input('Digite um valor:'))
+num2 = int(input('Digite outro valor:'))
+print('A soma é {} !!'.format(num1+num2))
